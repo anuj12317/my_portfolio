@@ -21,8 +21,8 @@ const portfolioData = {
     email: "anuj@example.com", // Replace with your real email
     github: "https://github.com/anuj", // Replace with your GitHub URL
     linkedin: "https://linkedin.com/in/anuj", // Replace with your LinkedIn URL
-    resumeUrl: "assets/resume.pdf", // Path to your resume PDF
-    avatarUrl: "assets/profile.jpg", // Path to your profile image
+    resumeUrl: "resume.pdf", // Path to your resume PDF
+    avatarUrl: "profile.jpg", // Path to your profile image
     
     // Formspree Form ID:
     // 1. Go to https://formspree.io and create a free account
