@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Primary Meta Tags -->
+  <title>Anuj | Aspiring Data Analyst | Portfolio</title>
+  <meta name="title" content="Anuj | Aspiring Data Analyst | Portfolio" />
+  <meta name="description" content="Portfolio of Anuj, B.Tech CSE student at JECRC University, Jaipur. Aspiring Data Analyst skilled in Python, SQL, Pandas, NumPy, Power BI, and Excel." />
+  <meta name="keywords" content="Anuj, Data Analyst, JECRC University, Python, SQL, Pandas, Power BI, Excel, Data Analytics Portfolio, Jaipur" />
+  <meta name="author" content="Anuj" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0a0f1d" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Anuj | Aspiring Data Analyst Portfolio" />
+  <meta property="og:description" content="B.Tech CSE student at JECRC University, Jaipur. Explore data analytics projects, SQL models, and Power BI dashboards." />
+  <meta property="og:image" content="assets/profile.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Anuj | Aspiring Data Analyst Portfolio" />
+  <meta property="twitter:description" content="B.Tech CSE student at JECRC University, Jaipur. Skilled in Python, SQL, Pandas, NumPy, and Power BI." />
+  <meta property="twitter:image" content="assets/profile.jpg" />
+
+  <!-- Inline SVG Favicon (Data Graph Icon) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%2338bdf8'%3E%3Crect x='4' y='18' width='5' height='10' rx='1.5'/%3E%3Crect x='13.5' y='11' width='5' height='17' rx='1.5'/%3E%3Crect x='23' y='4' width='5' height='24' rx='1.5'/%3E%3C/svg%3E" />
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ====================================================================
+       1. NAVIGATION BAR
+       ==================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Anuj Portfolio Home">
+        <span class="brand-icon" aria-hidden="true">📊</span>
+        <span>Anuj<span class="gradient-text">.data</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Navigation Actions (Theme Toggle & Mobile Menu Trigger) -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch theme" title="Toggle theme">
+          <!-- Populated by script.js -->
+        </button>
+
+        <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ====================================================================
+       MAIN CONTENT
+       ==================================================================== -->
+  <main id="main-content">
+
+    <!-- 2. HERO SECTION -->
+    <section class="section hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content reveal">
+            <div class="hero-status">
+              <span class="status-dot"></span>
+              <span>Open to Internships & Projects</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text" id="hero-name">Anuj</span>
+            </h1>
+
+            <p class="hero-tagline" id="hero-tagline">
+              Aspiring Data Analyst | CSE @ JECRC University
+            </p>
+
+            <p class="hero-description" id="hero-intro">
+              Passionate about uncovering meaningful patterns within complex datasets. I combine algorithmic problem-solving with statistical analysis, SQL querying, and interactive Power BI dashboards.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">
+                <span>View Projects</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </a>
+
+              <a href="assets/resume.pdf" class="btn btn-outline" id="hero-resume-btn" download="Anuj_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                </svg>
+                <span>Download Resume</span>
+              </a>
+            </div>
+
+            <!-- Social Links -->
+            <div class="hero-socials" id="hero-socials">
+              <!-- Rendered dynamically from data.js -->
+            </div>
+          </div>
+
+          <!-- Hero Avatar Card -->
+          <div class="hero-visual reveal">
+            <div class="avatar-wrapper">
+              <div class="avatar-backdrop" aria-hidden="true"></div>
+              <div class="avatar-card">
+                <img id="hero-avatar-img" class="avatar-img" src="assets/profile.jpg" alt="Anuj - Aspiring Data Analyst" />
+                <div class="avatar-badge-float">
+                  <div>
+                    <div class="badge-text-title">Data Analytics</div>
+                    <div class="badge-text-sub">Python • SQL • Power BI</div>
+                  </div>
+                  <span style="font-size: 1.25rem;">📈</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Turning Raw Numbers into Impactful Insights</h2>
+          <p class="section-subtitle">
+            A quick glance into my analytical journey, foundational mindset, and technical curiosity.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Bio & Learning Container -->
+          <div class="about-bio reveal">
+            <div id="about-bio">
+              <!-- Rendered dynamically from data.js -->
+            </div>
+
+            <div class="learning-box">
+              <div class="learning-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+                <span>What I'm Currently Learning & Exploring</span>
+              </div>
+              <ul class="learning-list" id="learning-list">
+                <!-- Rendered dynamically from data.js -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- Highlights Grid -->
+          <div class="highlights-grid reveal" id="highlights-grid">
+            <!-- Rendered dynamically from data.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SKILLS SECTION -->
+    <section class="section" id="skills" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills & Toolset</h2>
+          <p class="section-subtitle">
+            Tools, libraries, and frameworks I leverage to extract, analyze, model, and visualize data.
+          </p>
+        </div>
+
+        <div class="skills-categories-grid" id="skills-container">
+          <!-- Rendered dynamically from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PROJECTS SECTION -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Featured Works</span>
+          <h2 class="section-title">Projects & Case Studies</h2>
+          <p class="section-subtitle">
+            Hands-on projects covering Exploratory Data Analysis (EDA), SQL relational queries, and Business Intelligence dashboards.
+          </p>
+        </div>
+
+        <!-- Filter Tags -->
+        <div class="projects-filters reveal" id="project-filters">
+          <!-- Rendered dynamically from data.js -->
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Rendered dynamically from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. EDUCATION SECTION -->
+    <section class="section" id="education" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Academic Journey</span>
+          <h2 class="section-title">Education & Foundation</h2>
+          <p class="section-subtitle">
+            Formal education, core academic focus, and foundational analytical competencies.
+          </p>
+        </div>
+
+        <div class="timeline" id="education-timeline">
+          <!-- Rendered dynamically from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT SECTION -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Contact</span>
+          <h2 class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-subtitle">
+            I am currently open to data analyst internships, entry-level roles, and project collaborations.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Direct Info -->
+          <div class="contact-info-panel reveal">
+            <p class="contact-lead">
+              Feel free to send a message using the form or connect through any of the channels below. I look forward to hearing from you!
+            </p>
+
+            <div class="contact-items-list">
+              <!-- Email -->
+              <div class="contact-item-card">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                </div>
+                <div class="contact-item-meta">
+                  <span class="contact-meta-label">Direct Email</span>
+                  <a href="mailto:anuj@example.com" id="contact-email-link" class="contact-meta-val">anuj@example.com</a>
+                </div>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-item-card">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="contact-item-meta">
+                  <span class="contact-meta-label">LinkedIn</span>
+                  <a href="https://linkedin.com/in/anuj" target="_blank" rel="noopener noreferrer" id="contact-linkedin-link" class="contact-meta-val">linkedin.com/in/anuj</a>
+                </div>
+              </div>
+
+              <!-- GitHub -->
+              <div class="contact-item-card">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </div>
+                <div class="contact-item-meta">
+                  <span class="contact-meta-label">GitHub</span>
+                  <a href="https://github.com/anuj" target="_blank" rel="noopener noreferrer" id="contact-github-link" class="contact-meta-val">github.com/anuj</a>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item-card">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                  </svg>
+                </div>
+                <div class="contact-item-meta">
+                  <span class="contact-meta-label">Location</span>
+                  <span id="contact-location-text" class="contact-meta-val">Jaipur, Rajasthan, India</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right: Formspree Contact Form -->
+          <div class="contact-form-card reveal">
+            <form id="contact-form" class="contact-form">
+              
+              <div class="form-group">
+                <label for="form-name" class="form-label">Full Name</label>
+                <input 
+                  type="text" 
+                  id="form-name" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="e.g. Alex Johnson" 
+                  required 
+                  autocomplete="name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address</label>
+                <input 
+                  type="email" 
+                  id="form-email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="name@example.com" 
+                  required 
+                  autocomplete="email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input 
+                  type="text" 
+                  id="form-subject" 
+                  name="subject" 
+                  class="form-input" 
+                  placeholder="Internship opportunity / Project collaboration" 
+                  required 
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea 
+                  id="form-message" 
+                  name="message" 
+                  class="form-textarea" 
+                  placeholder="Write your message here..." 
+                  required
+                ></textarea>
+              </div>
+
+              <div id="form-status" class="form-status" role="alert"></div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================================
+       8. FOOTER
+       ==================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <p style="font-weight: 700; color: var(--text-primary);">Anuj • Data Analyst</p>
+        <p class="footer-copy">© 2026 Anuj. Built with clean HTML, CSS & vanilla JavaScript.</p>
+      </div>
+
+      <button id="back-to-top" class="back-to-top-btn" type="button" aria-label="Back to top of page">
+        <span>Back to Top</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+        </svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Scripts: data.js first, then script.js -->
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
